@@ -1,68 +1,14 @@
-/* Header Menu */
-
-.header {
-    background-color: #FAEBD7;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%
-}
-
-.header a {
-    float: left;
-    color: #000080;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    font-family: 'consolas';
-    font-weight: bold;
-}
-
-.header a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.header a.active {
-    background-color: #4169E1;
-    color: white;
-}
-
-
-/* Content area */
-
-.content {
+.HomeContent {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
 
-h2,
-h1 {
+.HomeContent h2,
+.HomeContent h1 {
     text-align: center;
     color: #000000;
-    font-family: 'consolas';
-    font-weight: bold;
-}
-
-
-/* Footer Menu */
-
-.footer {
-    background: linear-gradient(to top, #87ceeb 0%, #b0c4de 100%);
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%
-}
-
-.footer h2 {
-    text-align: center;
-    color: #FFFFFF;
     font-family: 'consolas';
     font-weight: bold;
 }
